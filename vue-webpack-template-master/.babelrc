@@ -1,0 +1,18 @@
+{
+  "presets": [
+      "env"
+  ],
+  "plugins": [
+    "syntax-dynamic-import",
+    "transform-vue-jsx",
+    "transform-object-rest-spread",
+    [
+      "transform-runtime",
+      {
+        "polyfill": true,
+        "regenerator": true
+      }
+    ]
+
+  ]
+}
